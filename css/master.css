@@ -84,11 +84,11 @@ main{
   margin-bottom: 20px;
 }
 
-/* main::after {
+main::after {
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 
 
@@ -106,8 +106,18 @@ main{
 }
 
 .icona_title h2{
-  font-size: 30px;
-  font-weight: normal;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+  width: 60%;
+  margin-top: 5px;
+
+}
+
+.icona_title:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
@@ -120,7 +130,7 @@ main{
 .title_centre{
   padding: 10px;
   text-transform: uppercase;
-  text-shadow: 1px 1px grey;
+  text-shadow: 1px 2px grey;
   font-weight: normal;
 }
 
