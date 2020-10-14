@@ -120,6 +120,13 @@ main::after {
   clear: both;
 }
 
+.green{
+  color: lightgreen;
+  list-style: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
 
 .center{
   width: 50%;
