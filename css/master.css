@@ -70,6 +70,7 @@ ul li{
   ul a{
     color: white;
     text-decoration: none;
+
   }
 
   ul li:hover{
@@ -83,7 +84,7 @@ main{
   margin-bottom: 20px;
 }
 
-.container{
+.container, .icona_title:after{
   content: "";
   display: table;
   clear: both;
@@ -92,15 +93,39 @@ main{
 
 .side_left{
   width: 20%;
-  height: 100px;
   background-color: white;
 }
 
+.fas{
+  color: orange;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 20px;
+
+}
+
+.icona_title h2{
+  font-size: 30px;
+  font-weight: normal;
+}
+
+
 .center{
   width: 50%;
-  height: 200px;
   background-color: white;
   margin: 0 5%;
+}
+
+.title_centre{
+  padding: 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px grey;
+  font-weight: normal;
+}
+
+.text_space{
+  line-height: 30px;
+  padding: 10px;
 }
 
 .side_right{
